@@ -744,11 +744,6 @@ socket.on('receivedAck', function (data) {
             console.log("3rd message received : ");
             console.log("3rd acknwoledge received : ");
         })
-    
-        socket.on('receivedAck4', function (data) {
-            console.log("4th message received : ");
-            console.log("4th acknwoledge received : ");
-        })
       //changes to remove
    
     socket.on('sendAck', function (data) {
